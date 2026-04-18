@@ -27,7 +27,7 @@ All three servers provide: code completion, go-to-definition, hover documentatio
 - **Tree-sitter grammar** ([tree-sitter/tree-sitter-php](https://github.com/tree-sitter/tree-sitter-php)) for fast, local, offline parsing
 - **PHPDoc syntax highlighting** ([claytonrcarter/tree-sitter-phpdoc](https://github.com/claytonrcarter/tree-sitter-phpdoc)) inside doc comment blocks
 - Language injection: HTML, CSS, JavaScript, and SQL embedded in PHP files are highlighted in their respective grammars
-- Smart bracket matching & auto-close for `()`, `[]`, `{}`, `''`, `""`, and heredoc patterns
+- Smart bracket matching & auto-close for `()`, `[]`, `{}`, `''`, and `""`
 - Correct indentation rules for PHP's block structure
 
 ### Editor Integration
