@@ -289,6 +289,7 @@ Add launch configurations to your `.zed/tasks.json` (or the Zed debug panel):
     "label": "PHP: Listen to Xdebug",
     "adapter": "Xdebug",
     "request": "launch",
+    "program": "${file}",
     "port": 9003
   }
 ]
